@@ -1,0 +1,108 @@
+a {
+    text-decoration: none;
+  }
+
+/* navigation tutorial: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: #a7d922;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #a7d922;
+    color: black;
+}
+
+ /* ------- this is a divider ------- */
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: light;
+}
+body {
+    width: 100%;
+    margin: 0 ;
+    background-color:#a7d922;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 60%; 
+    margin: 0 auto; 
+    background-color: white;
+    padding: 100px;
+}
+
+/* flex box tutorial: https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html */
+#about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#about-me-img {
+    width: 280px;
+    height: 350px;
+    border-radius: 5px;
+}
+#about-me-text {
+    padding-right: 40px; 
+}
+
+ /* ------- this is a divider ------- */
+
+#gif {
+    align-items: center;
+} 
+
+ /* ------- this is a divider ------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+th, td { 
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+ /* ------- this is a divider ------- */
+
+footer {
+    background-color: black;
+    color: #a7d922;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+ /* for works and project pages*/
+
+.container img {
+    width: 100%; 
+    height: auto; 
+}
